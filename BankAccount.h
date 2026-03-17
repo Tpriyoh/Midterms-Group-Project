@@ -105,6 +105,7 @@ public:
             
             //used auto i(0) at first but that caused an unexpected behavior due to auto i(0) being treated as an int 
             // while history.size() is looked at as size_t that conflicting data type may have made other bugs. switched it to size_t i(0)
+            //unsolved issue- when converting double to string fixed << setprecision(2) no longer works so the output will look like 100.000000000 in Transaction History.
             for(size_t i(0); i < history.size(); ++i) {
                 cout << history[i] << endl;
             }
