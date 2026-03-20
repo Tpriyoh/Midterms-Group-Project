@@ -38,7 +38,8 @@ public:
      stringstream rnd;
      rnd << fixed << setprecision(2) << b;
      
-     //using + to_string() multiple times throughout the code to convert numbers into string to use for history
+     //using + to_string() multiple times throughout the code to convert numbers into string to use for history X.
+    // 3/20/26 replaced all to_string() with rnd.str()); because this actually rounds up string numbers to the second decimal place.
      //since the vector is a string type.
      history.push_back("Account created with an initial deposit of: $" + rnd.str());
     
