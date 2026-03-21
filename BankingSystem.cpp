@@ -141,7 +141,7 @@ int main() {
                 account.history();
 
         }
-            else (choice == 6){
+            else if (choice == 6){
             cout << "Goodbye." << endl;
         
         }
