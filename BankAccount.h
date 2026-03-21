@@ -10,7 +10,7 @@ Midterms Group Project
 #include <vector>
 #include <iomanip>
 #include <string>
-#include <sstream> //need this for stringstream.
+#include <sstream> //need this for stringstream after looking online about how to set precision on string numbers. link avaliable in code.
 using namespace std;
 
 class BankAccount {
