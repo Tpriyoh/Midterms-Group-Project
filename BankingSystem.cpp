@@ -3,6 +3,7 @@ Name: Tun Tun (Jonathan) Aung
 Course: CSCI 272(1)
 Midterms Group Project
 03/19/26
+Member: Tanzin Priyoh, Tun Tun (Jonathan) Aung, Miguel Llapa, Bilal Ahmed
 */
 
 #include <limits> // required for cin.ignore(numeric_limits<streamsize>::max(), '\n');
@@ -169,11 +170,11 @@ int main() {
  *
  *Bilal Ahmed:
  * The hardest part for me was trying to understand the code and what my groupmates did. It took me a little while to understand
- * because there were functions that i didnt recognize like sstream but after a little bit of time and some youtube I got the general idea.
- * In all honesty my part was extremely simple since Jonathan had done such an amazing job in BankAccount.h and all i had to do was call and make sure to add 
+ * because there were functions that I didn't recognize, like sstream, but after a little bit of time and some youtube I got the general idea.
+ * In all honesty, my part was extremely simple since Tanzin had done such an amazing job in BankAccount.h and all i had to do was call and make sure to add 
  * the proper print statements.
- * A mistake that I did make was that i forgot to add the break; keyword to an unnecassary while loop that I added which led it to be an infinite loop.
- * While i do understand that the sstream just makes itt easier to take input and output Im still confused on how it actually fully works.
+ * A mistake that I made was that I forgot to add the break; keyword to an unnecessary while loop that I added which led it to be an infinite loop.
+ * While I do understand that the sstream just makes it easier to take input and output Im still confused on how it actually fully works.
  *
  *Miguel Llapa:
  *One of the tricky part for me in the project is how it is different than the one from StackOverFlow without
