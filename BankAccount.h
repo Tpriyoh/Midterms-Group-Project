@@ -32,8 +32,7 @@ public:
      
      
      //source for stringstream number rounding
-     //https://stackoverflow.com/questions/5113221/decimal-points-with-stdstringstream where one comment said: 
-     //"You don't need to split out the precision call on a separate line: t << setprecision(2) << fixed << a ..."
+     //https://stackoverflow.com/questions/29200635/convert-float-to-string-with-precision-number-of-decimal-digits-specified
      //used this to round up all string numbers to the second decimal place. will note the site only for the following refrences.
      //rnd short for round.
      stringstream rnd;
@@ -53,7 +52,7 @@ public:
         if(amt > 0) {
             balance += amt;
           
-          //source //https://stackoverflow.com/questions/5113221/decimal-points-with-stdstringstream *see note above  
+          //source //https://stackoverflow.com/questions/29200635/convert-float-to-string-with-precision-number-of-decimal-digits-specified *see note above  
             stringstream rnd;
             rnd << fixed << setprecision(2) << amt;
             history.push_back("Deposited: $" + rnd.str());
@@ -85,7 +84,7 @@ public:
             balance -= amt;
             
             
-            //source //https://stackoverflow.com/questions/5113221/decimal-points-with-stdstringstream *see note above  
+            //source //https://stackoverflow.com/questions/29200635/convert-float-to-string-with-precision-number-of-decimal-digits-specified *see note above  
             stringstream rnd;
             rnd << fixed << setprecision(2) << amt;
             history.push_back("Withdrawn: $" + rnd.str());
