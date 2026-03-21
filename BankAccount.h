@@ -10,7 +10,8 @@ Midterms Group Project
 #include <vector>
 #include <iomanip>
 #include <string>
-#include <sstream> //need this for stringstream after looking online about how to set precision on string numbers. link avaliable in code.
+#include <sstream> //need this for stringstream after learning about it here. 
+//https://stackoverflow.com/questions/29200635/convert-float-to-string-with-precision-number-of-decimal-digits-specified
 using namespace std;
 
 class BankAccount {
