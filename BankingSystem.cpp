@@ -136,6 +136,14 @@ int main() {
             else if (choice == 4){
                 account.display();
 
+        } 
+            else if (choice == 5){
+                account.history();
+
+        }
+            else (choice == 6){
+            cout << "Goodbye." << endl;
+        
         }
     }
 
