@@ -138,7 +138,7 @@ int main() {
 
         } 
             else if (choice == 5){
-                account.history();
+                account.showHistory();
 
         }
             else if (choice == 6){
