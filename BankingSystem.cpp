@@ -127,6 +127,15 @@ int main() {
                 }
             }
 
+        } else if (choice == 3){
+            cout <<endl;
+            cout << fixed << setprecision(2);
+            cout << "Your balance is: $" << account.getBalance() << endl;
+            
+        }    
+            else if (choice == 4){
+                account.display();
+
         }
     }
 
