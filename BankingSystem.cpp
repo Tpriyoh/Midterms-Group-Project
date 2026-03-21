@@ -138,11 +138,11 @@ int main() {
 
         } 
             else if (choice == 5){
-                account.showHistory();
+                account.showHistory(); //shows history for the bank account
 
         }
             else if (choice == 6){
-            cout << "Goodbye." << endl;
+            cout << "Goodbye." << endl; //exits the program, when choosing choice 6
         
         }
     }
@@ -167,4 +167,14 @@ int main() {
  *6. Logic again, bit of a challenge to track how the program is flowing, i encountered abit of an issue with tracking how pushback is suppose to work
  *in the loops.
  *
+ *Miguel Llapa:
+ *One of the tricky part for me in the project is how it is different than the one from StackOverFlow without
+ *the switch and do statement for the choice menu to keep going constantly in a loop, and also a bit iffy for me
+ *until Bilal, who did choice 3 and 4, did the work and understood how its done, and learned that it didn't need to be 
+ *complicated and did 5 and 6 with no problem.
+ *source: https://stackoverflow.com/questions/64036374/getting-loop-to-redisplay-message-c#:~:text=2%20Answers&text=Your%20code%20is%20displaying%20the,better%20a%20single%20switch%20block.
+ *And one of the things I learned from the error note (03/21/26) is in choice 6
+ *in the code, there should be a else if statement to run the code instead of else statement. I learned that the while and else if
+ *statements can also work in a loop in the menu without the use of "switch" and "do" statements so the menu can keep going
+ *to work.
  */
