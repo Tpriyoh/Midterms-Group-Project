@@ -41,6 +41,8 @@ public:
      //using + to_string() multiple times throughout the code to convert numbers into string to use for history X.
     // 3/20/26 replaced all to_string() with rnd.str()); because this actually rounds up string numbers to the second decimal place.
      //since the vector is a string type.
+    //stringstream rnd makes a temp format box to hold numbers as text.
+    // rnd.str() pulls the formatted text out to save it to the history list.
      history.push_back("Account created with an initial deposit of: $" + rnd.str());
     
     }
