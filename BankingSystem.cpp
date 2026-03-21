@@ -129,12 +129,12 @@ int main() {
 
         } else if (choice == 3){
             cout <<endl;
-            cout << fixed << setprecision(2);
-            cout << "Your balance is: $" << account.getBalance() << endl;
+            cout << fixed << setprecision(2); 
+            cout << "Your balance is: $" << account.getBalance() << endl; // Prints the users current balance.
             
         }    
             else if (choice == 4){
-                account.display();
+                account.display(); //displays all of the account info.
 
         } 
             else if (choice == 5){
@@ -166,6 +166,14 @@ int main() {
  *5. Because there is a large usage of while loop, there's alot of risk with infinite loop, tracking {} is somewhat challenging
  *6. Logic again, bit of a challenge to track how the program is flowing, i encountered abit of an issue with tracking how pushback is suppose to work
  *in the loops.
+ *
+ *Bilal Ahmed:
+ * The hardest part for me was trying to understand the code and what my groupmates did. It took me a little while to understand
+ * because there were functions that i didnt recognize like sstream but after a little bit of time and some youtube I got the general idea.
+ * In all honesty my part was extremely simple since Jonathan had done such an amazing job in BankAccount.h and all i had to do was call and make sure to add 
+ * the proper print statements.
+ * A mistake that I did make was that i forgot to add the break; keyword to an unnecassary while loop that I added which led it to be an infinite loop.
+ * While i do understand that the sstream just makes itt easier to take input and output Im still confused on how it actually fully works.
  *
  *Miguel Llapa:
  *One of the tricky part for me in the project is how it is different than the one from StackOverFlow without
